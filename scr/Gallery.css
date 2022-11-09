@@ -1,0 +1,56 @@
+.uno, .dos, .tres, .cuatro{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+body{
+    background-color: rgba(223, 223, 223, 0.356);
+}
+
+.par_, .impar_{
+    margin: auto;
+    text-align: center;
+}
+
+.impar_{
+    padding-top: 4px;
+}
+
+.integrantes{
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 615px;
+    height: 615px;
+    margin: auto;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+.titulo{
+    text-align: center;
+    width: 615px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+p{
+    color: white;
+    border: 1px solid transparent;
+}
+
+.cuadro:hover p{
+    color: rgb(255, 162, 162);
+    border-radius: 10px;
+    border: 1px solid rgb(255, 162, 162);
+}
+
+.cuadro{
+    background-color: black;
+    width: 630px;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 10px;
+}

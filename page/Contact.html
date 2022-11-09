@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../scr/style.css">
+    <link rel="stylesheet" href="../scr/Contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header class="header">
+        <div class="hd">
+            <nav class="menu">
+                <ul class="menuContainer">
+                    <li class="menuItem">
+                        <a class="menuLink" href="../index.html">Home</a>
+                    </li>
+                    <li class="menuItem">
+                        <a class="menuLink" href="Discografia.html">Discografia</a>
+                    </li>
+                    <li class="menuItem">
+                        <a class="menuLink" href="Gallery.html">Gallery</a>
+                    </li>
+                    <li class="menuItem">
+                        <a class="menuLink" href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <br><br><br>
+    </header>
+
+    <div class="home">
+        <main>
+            <div class="banner">
+                <img class="ban" src="../img/descarga.jpg" alt="logo del cuarteto de nos">
+            </div>         
+            <br>
+            
+            <div class="formulario">
+                <form>
+                    <div class="formu">
+                        <div>
+                            <label for="name">Name</label>
+                            <input type="text" required id="name" placeholder="ej: casimiro">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="text" required id="email" placeholder="ej: casitemiro@example.com">
+                        </div>
+                        <div>
+                            <label for="age">Age</label>
+                            <input type="number" required id="age" placeholder="ej: 18">
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <label for="city">City</label>
+                        <select name="" id="city">
+                            <option value="">Select an option</option>
+                            <option value="bogota">Bogota</option>
+                            <option value="cali">Cali</option>
+                            <option value="ibague">Ibague</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <span>Gender</span>
+                        <div class="cuadrito">
+                            <div>
+                                <label for="man">man</label>
+                                <input type="radio" name="gender" required id="man" placeholder="ej: man">
+                            </div>
+                            <div>
+                                <label for="woman">woman</label>
+                                <input type="radio" name="gender" required id="woman" placeholder="ej: woman">
+                            </div>
+                            <div>
+                                <label for="no">no identified</label>
+                                <input type="radio" name="gender" required id="no" placeholder="ej: no">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="msg">Message</label>
+                        <textarea name="" id="msg" cols="30" rows="3"></textarea>
+                    </div>
+            
+            
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            
+        
+
+        </main>
+    
+    
+    <div class="footer">
+        <footer>
+            <p>Carlos Miguel Acuña</p>
+            <p>3 de oct 2022</p>
+        </footer>
+    </div>
+</body>
+</html>

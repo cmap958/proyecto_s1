@@ -1,0 +1,53 @@
+form{
+    width: fit-content;
+    margin: auto;
+}
+
+body{
+    background-color: black;
+}
+
+label, span{
+    color: white;
+    display: block;
+    width: fit-content;
+    padding: 5px 20px;
+}
+
+input, select, textarea{
+    border-radius: 10px;
+    border: 1px solid red;
+    padding: 10px 30px;
+}
+
+.cuadrito div{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.cuadrito label{
+    color: black;
+}
+
+.cuadrito{
+    border-radius: 10px;
+    border: 1px solid red;
+    background-color: white;
+    width: fit-content;
+}
+
+button{
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid red;
+    background-color: white;
+    font-family: cursive;
+}
+
+div label{
+    text-align: center;
+}
+
+label:hover, input:hover, span:hover, button:hover{
+    color:  rgb(255, 162, 162);
+}

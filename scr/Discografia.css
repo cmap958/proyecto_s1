@@ -1,0 +1,27 @@
+.canciones{
+    margin-left: 30px;
+}
+
+.table{
+    text-align: center;
+}
+
+.vinculos{
+    list-style: none;
+}
+
+.tabla{
+    background-color: white;
+}
+
+.logo_youtube{
+    width: 30px;
+    height: 30px;
+}
+
+.link_youtube{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
